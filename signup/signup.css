@@ -1,7 +1,7 @@
 .container {
   border: 1px solid rgba(80,80,80,0.4);
   border-radius: 2px;
-  max-width: 23%;
+  max-width: 25%;
   margin: auto;
   min-height: 519px;
   
@@ -9,6 +9,7 @@
 h1 {
   text-align: center;
   font-style: italic;
+  margin-bottom: 10px;
 }
 
 .hidden-label {
@@ -24,12 +25,12 @@ input[type="text"],
 input[type="mobile-number"],
 input[type="email-id"],
 input[type="password"] {
-  width: 100%;
+  width: 96%;
   margin: 3px 0 25px 0;
   padding: 5px 4px;
 }
 input[type="password"] {
-    width: 100%;
+    width: 96%;
     margin: 3px 0 6px 0;
     padding: 5px 4px;
   }
@@ -42,12 +43,12 @@ input[type="password"]:focus {
   outline-width: 0;
   /* outline: 2px solid orange;     oranges! yey */
   /* border: 0px solid orange;   */
-  border: 1px solid #e77600 !important;
+  border: 1px solid #e77600 ;
   border-radius: 2px;
   box-shadow: 0 0 3px 2px rgba(228, 121, 17, 0.5); /* oranges! yey */
 }
 button {
-  width: 103%;
+  width: 100%;
   padding: 5px 0;
   background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
   outline: 0;
@@ -60,6 +61,10 @@ button {
   border-style: solid;
   border-width: 1px;
   cursor: pointer;
+}
+p{
+  font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p a{
     text-decoration: none;
